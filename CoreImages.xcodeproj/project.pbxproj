@@ -13,6 +13,24 @@
 		1C0683262140C47600B9A328 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C0683252140C47600B9A328 /* Assets.xcassets */; };
 		1C0683292140C47600B9A328 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C0683272140C47600B9A328 /* LaunchScreen.storyboard */; };
 		1C06832C2140C47600B9A328 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C06832B2140C47600B9A328 /* main.m */; };
+		1C0683342140C75A00B9A328 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0683332140C75A00B9A328 /* BaseViewController.m */; };
+		1C0683372140D58100B9A328 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C0683362140D58100B9A328 /* CoreImage.framework */; };
+		1C0683392140D62D00B9A328 /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C0683382140D62C00B9A328 /* image.jpg */; };
+		1C06833B2140F77400B9A328 /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C06833A2140F77400B9A328 /* images.jpg */; };
+		1C0683412141158900B9A328 /* BlurViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0683402141158900B9A328 /* BlurViewController.m */; };
+		1C06834321411AC600B9A328 /* numberImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C06834221411AC600B9A328 /* numberImage.jpg */; };
+		1C0683482141231A00B9A328 /* ColorAdjustmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0683472141231A00B9A328 /* ColorAdjustmentViewController.m */; };
+		1C06834C214211F600B9A328 /* ColorEffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C06834B214211F600B9A328 /* ColorEffectViewController.m */; };
+		1C068350214247AD00B9A328 /* CompositeOperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C06834F214247AD00B9A328 /* CompositeOperationViewController.m */; };
+		1C06835221424CED00B9A328 /* inputComposite.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C06835121424CED00B9A328 /* inputComposite.png */; };
+		1C06835421424CF200B9A328 /* backComposite.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C06835321424CF200B9A328 /* backComposite.png */; };
+		1C0683582142538200B9A328 /* DistortionEffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0683572142538200B9A328 /* DistortionEffectViewController.m */; };
+		1C06835E2142551000B9A328 /* backComposite.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C0683592142551000B9A328 /* backComposite.png */; };
+		1C06835F2142551000B9A328 /* CICircularWrap.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C06835A2142551000B9A328 /* CICircularWrap.png */; };
+		1C0683602142551000B9A328 /* CIBumpDistortionLinear.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C06835B2142551000B9A328 /* CIBumpDistortionLinear.png */; };
+		1C0683612142551000B9A328 /* CIBumpDistortion.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C06835C2142551000B9A328 /* CIBumpDistortion.png */; };
+		1C0683622142551000B9A328 /* CIDroste.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C06835D2142551000B9A328 /* CIDroste.png */; };
+		1C0683642142582200B9A328 /* CIGlassDistortion.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C0683632142582100B9A328 /* CIGlassDistortion.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +44,30 @@
 		1C0683282140C47600B9A328 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C06832A2140C47600B9A328 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C06832B2140C47600B9A328 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1C0683322140C75A00B9A328 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		1C0683332140C75A00B9A328 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		1C0683362140D58100B9A328 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		1C0683382140D62C00B9A328 /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
+		1C06833A2140F77400B9A328 /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpg; sourceTree = "<group>"; };
+		1C06833F2141158800B9A328 /* BlurViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlurViewController.h; sourceTree = "<group>"; };
+		1C0683402141158900B9A328 /* BlurViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlurViewController.m; sourceTree = "<group>"; };
+		1C06834221411AC600B9A328 /* numberImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = numberImage.jpg; sourceTree = "<group>"; };
+		1C0683462141231A00B9A328 /* ColorAdjustmentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorAdjustmentViewController.h; sourceTree = "<group>"; };
+		1C0683472141231A00B9A328 /* ColorAdjustmentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorAdjustmentViewController.m; sourceTree = "<group>"; };
+		1C06834A214211F600B9A328 /* ColorEffectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorEffectViewController.h; sourceTree = "<group>"; };
+		1C06834B214211F600B9A328 /* ColorEffectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorEffectViewController.m; sourceTree = "<group>"; };
+		1C06834E214247AD00B9A328 /* CompositeOperationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompositeOperationViewController.h; sourceTree = "<group>"; };
+		1C06834F214247AD00B9A328 /* CompositeOperationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompositeOperationViewController.m; sourceTree = "<group>"; };
+		1C06835121424CED00B9A328 /* inputComposite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inputComposite.png; sourceTree = "<group>"; };
+		1C06835321424CF200B9A328 /* backComposite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backComposite.png; sourceTree = "<group>"; };
+		1C0683562142538200B9A328 /* DistortionEffectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DistortionEffectViewController.h; sourceTree = "<group>"; };
+		1C0683572142538200B9A328 /* DistortionEffectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DistortionEffectViewController.m; sourceTree = "<group>"; };
+		1C0683592142551000B9A328 /* backComposite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backComposite.png; sourceTree = "<group>"; };
+		1C06835A2142551000B9A328 /* CICircularWrap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CICircularWrap.png; sourceTree = "<group>"; };
+		1C06835B2142551000B9A328 /* CIBumpDistortionLinear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CIBumpDistortionLinear.png; sourceTree = "<group>"; };
+		1C06835C2142551000B9A328 /* CIBumpDistortion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CIBumpDistortion.png; sourceTree = "<group>"; };
+		1C06835D2142551000B9A328 /* CIDroste.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CIDroste.png; sourceTree = "<group>"; };
+		1C0683632142582100B9A328 /* CIGlassDistortion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CIGlassDistortion.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C0683372140D58100B9A328 /* CoreImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +87,7 @@
 			children = (
 				1C06831B2140C47500B9A328 /* CoreImages */,
 				1C06831A2140C47500B9A328 /* Products */,
+				1C0683352140D58100B9A328 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +102,20 @@
 		1C06831B2140C47500B9A328 /* CoreImages */ = {
 			isa = PBXGroup;
 			children = (
+				1C06834221411AC600B9A328 /* numberImage.jpg */,
+				1C06833A2140F77400B9A328 /* images.jpg */,
+				1C0683382140D62C00B9A328 /* image.jpg */,
 				1C06831C2140C47500B9A328 /* AppDelegate.h */,
 				1C06831D2140C47500B9A328 /* AppDelegate.m */,
 				1C06831F2140C47500B9A328 /* ViewController.h */,
 				1C0683202140C47500B9A328 /* ViewController.m */,
+				1C0683322140C75A00B9A328 /* BaseViewController.h */,
+				1C0683332140C75A00B9A328 /* BaseViewController.m */,
+				1C0683552142536800B9A328 /* CICategoryDistortionEffect */,
+				1C06834D2142479900B9A328 /* CICategoryCompositeOperation */,
+				1C068349214211D400B9A328 /* CICategoryColorEffect */,
+				1C0683452141230600B9A328 /* CICategoryColorAdjustment */,
+				1C068344214122E200B9A328 /* CICategoryBlur */,
 				1C0683222140C47500B9A328 /* Main.storyboard */,
 				1C0683252140C47600B9A328 /* Assets.xcassets */,
 				1C0683272140C47600B9A328 /* LaunchScreen.storyboard */,
@@ -69,6 +123,67 @@
 				1C06832B2140C47600B9A328 /* main.m */,
 			);
 			path = CoreImages;
+			sourceTree = "<group>";
+		};
+		1C0683352140D58100B9A328 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C0683362140D58100B9A328 /* CoreImage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C068344214122E200B9A328 /* CICategoryBlur */ = {
+			isa = PBXGroup;
+			children = (
+				1C06833F2141158800B9A328 /* BlurViewController.h */,
+				1C0683402141158900B9A328 /* BlurViewController.m */,
+			);
+			path = CICategoryBlur;
+			sourceTree = "<group>";
+		};
+		1C0683452141230600B9A328 /* CICategoryColorAdjustment */ = {
+			isa = PBXGroup;
+			children = (
+				1C0683462141231A00B9A328 /* ColorAdjustmentViewController.h */,
+				1C0683472141231A00B9A328 /* ColorAdjustmentViewController.m */,
+			);
+			path = CICategoryColorAdjustment;
+			sourceTree = "<group>";
+		};
+		1C068349214211D400B9A328 /* CICategoryColorEffect */ = {
+			isa = PBXGroup;
+			children = (
+				1C06834A214211F600B9A328 /* ColorEffectViewController.h */,
+				1C06834B214211F600B9A328 /* ColorEffectViewController.m */,
+			);
+			path = CICategoryColorEffect;
+			sourceTree = "<group>";
+		};
+		1C06834D2142479900B9A328 /* CICategoryCompositeOperation */ = {
+			isa = PBXGroup;
+			children = (
+				1C06835121424CED00B9A328 /* inputComposite.png */,
+				1C06835321424CF200B9A328 /* backComposite.png */,
+				1C06834E214247AD00B9A328 /* CompositeOperationViewController.h */,
+				1C06834F214247AD00B9A328 /* CompositeOperationViewController.m */,
+			);
+			path = CICategoryCompositeOperation;
+			sourceTree = "<group>";
+		};
+		1C0683552142536800B9A328 /* CICategoryDistortionEffect */ = {
+			isa = PBXGroup;
+			children = (
+				1C0683632142582100B9A328 /* CIGlassDistortion.png */,
+				1C0683592142551000B9A328 /* backComposite.png */,
+				1C06835C2142551000B9A328 /* CIBumpDistortion.png */,
+				1C06835B2142551000B9A328 /* CIBumpDistortionLinear.png */,
+				1C06835A2142551000B9A328 /* CICircularWrap.png */,
+				1C06835D2142551000B9A328 /* CIDroste.png */,
+				1C0683562142538200B9A328 /* DistortionEffectViewController.h */,
+				1C0683572142538200B9A328 /* DistortionEffectViewController.m */,
+			);
+			path = CICategoryDistortionEffect;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +243,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C06835421424CF200B9A328 /* backComposite.png in Resources */,
 				1C0683292140C47600B9A328 /* LaunchScreen.storyboard in Resources */,
+				1C06833B2140F77400B9A328 /* images.jpg in Resources */,
 				1C0683262140C47600B9A328 /* Assets.xcassets in Resources */,
 				1C0683242140C47500B9A328 /* Main.storyboard in Resources */,
+				1C0683622142551000B9A328 /* CIDroste.png in Resources */,
+				1C06835221424CED00B9A328 /* inputComposite.png in Resources */,
+				1C0683612142551000B9A328 /* CIBumpDistortion.png in Resources */,
+				1C06835F2142551000B9A328 /* CICircularWrap.png in Resources */,
+				1C0683392140D62D00B9A328 /* image.jpg in Resources */,
+				1C06835E2142551000B9A328 /* backComposite.png in Resources */,
+				1C0683642142582200B9A328 /* CIGlassDistortion.png in Resources */,
+				1C0683602142551000B9A328 /* CIBumpDistortionLinear.png in Resources */,
+				1C06834321411AC600B9A328 /* numberImage.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,8 +267,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C068350214247AD00B9A328 /* CompositeOperationViewController.m in Sources */,
 				1C0683212140C47500B9A328 /* ViewController.m in Sources */,
+				1C0683582142538200B9A328 /* DistortionEffectViewController.m in Sources */,
+				1C06834C214211F600B9A328 /* ColorEffectViewController.m in Sources */,
+				1C0683482141231A00B9A328 /* ColorAdjustmentViewController.m in Sources */,
 				1C06832C2140C47600B9A328 /* main.m in Sources */,
+				1C0683342140C75A00B9A328 /* BaseViewController.m in Sources */,
+				1C0683412141158900B9A328 /* BlurViewController.m in Sources */,
 				1C06831E2140C47500B9A328 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
