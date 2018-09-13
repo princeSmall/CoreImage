@@ -37,7 +37,7 @@
 }
 - (UIImageView *)originImageView2{
     if (!_originImageView2) {
-        _originImageView2 = [[UIImageView alloc]initWithFrame:CGRectMake(self.view.frame.size.width / 2.0 - 100, 100, 200, 200)];
+        _originImageView2 = [[UIImageView alloc]initWithFrame:CGRectMake(self.view.frame.size.width / 2.0 , 100, 200, 200)];
     }
     return _originImageView2;
 }

@@ -31,6 +31,25 @@
 		1C0683612142551000B9A328 /* CIBumpDistortion.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C06835C2142551000B9A328 /* CIBumpDistortion.png */; };
 		1C0683622142551000B9A328 /* CIDroste.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C06835D2142551000B9A328 /* CIDroste.png */; };
 		1C0683642142582200B9A328 /* CIGlassDistortion.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C0683632142582100B9A328 /* CIGlassDistortion.png */; };
+		1C700DB02147B74B0065E0AA /* GeneratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C700DAF2147B74B0065E0AA /* GeneratorViewController.m */; };
+		1C700DB42148B7570065E0AA /* GeometryAdjustmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C700DB32148B7560065E0AA /* GeometryAdjustmentViewController.m */; };
+		1C700DBE2148BA460065E0AA /* TransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C700DBD2148BA460065E0AA /* TransitionViewController.m */; };
+		1C700DC12148BA560065E0AA /* TileEffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C700DC02148BA560065E0AA /* TileEffectViewController.m */; };
+		1C700DC42148BA660065E0AA /* StylizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C700DC32148BA660065E0AA /* StylizeViewController.m */; };
+		1C700DC72148BA730065E0AA /* SharpenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C700DC62148BA730065E0AA /* SharpenViewController.m */; };
+		1C700DCA2148BA800065E0AA /* ReductionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C700DC92148BA800065E0AA /* ReductionViewController.m */; };
+		1C700DCD2148BA8F0065E0AA /* HalftoneEffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C700DCC2148BA8F0065E0AA /* HalftoneEffectViewController.m */; };
+		1C700DD02148BAA30065E0AA /* GradientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C700DCF2148BAA30065E0AA /* GradientViewController.m */; };
+		1C700DD32148BF4B0065E0AA /* CoreImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C700DD22148BF4B0065E0AA /* CoreImageModel.m */; };
+		1C700DD52148EB990065E0AA /* CIAffineTransform_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C700DD42148EB990065E0AA /* CIAffineTransform_2x.png */; };
+		1C700DD72148EBB10065E0AA /* CICrop_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C700DD62148EBB10065E0AA /* CICrop_2x.png */; };
+		1C700DD92148EBCD0065E0AA /* CILanczosScaleTransform_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C700DD82148EBCD0065E0AA /* CILanczosScaleTransform_2x.png */; };
+		1C700DDB2148EBE60065E0AA /* CIPerspectiveCorrection_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C700DDA2148EBE60065E0AA /* CIPerspectiveCorrection_2x.png */; };
+		1C700DDD2148EBFC0065E0AA /* CIPerspectiveTransform_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C700DDC2148EBFC0065E0AA /* CIPerspectiveTransform_2x.png */; };
+		1C700DDF2148EC130065E0AA /* CIStraightenFilter_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C700DDE2148EC130065E0AA /* CIStraightenFilter_2x.png */; };
+		1C700DE72148FED60065E0AA /* CIPerspectiveTransformWithExtent_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C700DE62148FED60065E0AA /* CIPerspectiveTransformWithExtent_2x.png */; };
+		1C700E0D214A046B0065E0AA /* CICircularScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C700E0C214A046B0065E0AA /* CICircularScreen.png */; };
+		1C700E0F214A063E0065E0AA /* CICMYKHalftone.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C700E0E214A063E0065E0AA /* CICMYKHalftone.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +87,35 @@
 		1C06835C2142551000B9A328 /* CIBumpDistortion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CIBumpDistortion.png; sourceTree = "<group>"; };
 		1C06835D2142551000B9A328 /* CIDroste.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CIDroste.png; sourceTree = "<group>"; };
 		1C0683632142582100B9A328 /* CIGlassDistortion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CIGlassDistortion.png; sourceTree = "<group>"; };
+		1C700DAE2147B74B0065E0AA /* GeneratorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneratorViewController.h; sourceTree = "<group>"; };
+		1C700DAF2147B74B0065E0AA /* GeneratorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeneratorViewController.m; sourceTree = "<group>"; };
+		1C700DB22148B7560065E0AA /* GeometryAdjustmentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeometryAdjustmentViewController.h; sourceTree = "<group>"; };
+		1C700DB32148B7560065E0AA /* GeometryAdjustmentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeometryAdjustmentViewController.m; sourceTree = "<group>"; };
+		1C700DBC2148BA460065E0AA /* TransitionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransitionViewController.h; sourceTree = "<group>"; };
+		1C700DBD2148BA460065E0AA /* TransitionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransitionViewController.m; sourceTree = "<group>"; };
+		1C700DBF2148BA560065E0AA /* TileEffectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TileEffectViewController.h; sourceTree = "<group>"; };
+		1C700DC02148BA560065E0AA /* TileEffectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TileEffectViewController.m; sourceTree = "<group>"; };
+		1C700DC22148BA660065E0AA /* StylizeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StylizeViewController.h; sourceTree = "<group>"; };
+		1C700DC32148BA660065E0AA /* StylizeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StylizeViewController.m; sourceTree = "<group>"; };
+		1C700DC52148BA730065E0AA /* SharpenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SharpenViewController.h; sourceTree = "<group>"; };
+		1C700DC62148BA730065E0AA /* SharpenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SharpenViewController.m; sourceTree = "<group>"; };
+		1C700DC82148BA800065E0AA /* ReductionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReductionViewController.h; sourceTree = "<group>"; };
+		1C700DC92148BA800065E0AA /* ReductionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReductionViewController.m; sourceTree = "<group>"; };
+		1C700DCB2148BA8F0065E0AA /* HalftoneEffectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HalftoneEffectViewController.h; sourceTree = "<group>"; };
+		1C700DCC2148BA8F0065E0AA /* HalftoneEffectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HalftoneEffectViewController.m; sourceTree = "<group>"; };
+		1C700DCE2148BAA30065E0AA /* GradientViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GradientViewController.h; sourceTree = "<group>"; };
+		1C700DCF2148BAA30065E0AA /* GradientViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradientViewController.m; sourceTree = "<group>"; };
+		1C700DD12148BF4B0065E0AA /* CoreImageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreImageModel.h; sourceTree = "<group>"; };
+		1C700DD22148BF4B0065E0AA /* CoreImageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreImageModel.m; sourceTree = "<group>"; };
+		1C700DD42148EB990065E0AA /* CIAffineTransform_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CIAffineTransform_2x.png; sourceTree = "<group>"; };
+		1C700DD62148EBB10065E0AA /* CICrop_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CICrop_2x.png; sourceTree = "<group>"; };
+		1C700DD82148EBCD0065E0AA /* CILanczosScaleTransform_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CILanczosScaleTransform_2x.png; sourceTree = "<group>"; };
+		1C700DDA2148EBE60065E0AA /* CIPerspectiveCorrection_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CIPerspectiveCorrection_2x.png; sourceTree = "<group>"; };
+		1C700DDC2148EBFC0065E0AA /* CIPerspectiveTransform_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CIPerspectiveTransform_2x.png; sourceTree = "<group>"; };
+		1C700DDE2148EC130065E0AA /* CIStraightenFilter_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CIStraightenFilter_2x.png; sourceTree = "<group>"; };
+		1C700DE62148FED60065E0AA /* CIPerspectiveTransformWithExtent_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CIPerspectiveTransformWithExtent_2x.png; path = ../../../../CIPerspectiveTransformWithExtent_2x.png; sourceTree = "<group>"; };
+		1C700E0C214A046B0065E0AA /* CICircularScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CICircularScreen.png; sourceTree = "<group>"; };
+		1C700E0E214A063E0065E0AA /* CICMYKHalftone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CICMYKHalftone.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,8 +157,19 @@
 				1C06831D2140C47500B9A328 /* AppDelegate.m */,
 				1C06831F2140C47500B9A328 /* ViewController.h */,
 				1C0683202140C47500B9A328 /* ViewController.m */,
+				1C700DD12148BF4B0065E0AA /* CoreImageModel.h */,
+				1C700DD22148BF4B0065E0AA /* CoreImageModel.m */,
 				1C0683322140C75A00B9A328 /* BaseViewController.h */,
 				1C0683332140C75A00B9A328 /* BaseViewController.m */,
+				1C700DBB2148BA180065E0AA /* CICategoryTransition */,
+				1C700DBA2148BA0B0065E0AA /* CICategoryTileEffect */,
+				1C700DB92148BA020065E0AA /* CICategoryStylize */,
+				1C700DB82148B9F80065E0AA /* CICategorySharpen */,
+				1C700DB72148B9EF0065E0AA /* CICategoryReduction */,
+				1C700DB62148B9E70065E0AA /* CICategoryHalftoneEffect */,
+				1C700DB52148B9D90065E0AA /* CICategoryGradient */,
+				1C700DB12148B73B0065E0AA /* CICategoryGeometryAdjustment */,
+				1C700DAD2147B71A0065E0AA /* CICategoryGenerator */,
 				1C0683552142536800B9A328 /* CICategoryDistortionEffect */,
 				1C06834D2142479900B9A328 /* CICategoryCompositeOperation */,
 				1C068349214211D400B9A328 /* CICategoryColorEffect */,
@@ -186,6 +245,96 @@
 			path = CICategoryDistortionEffect;
 			sourceTree = "<group>";
 		};
+		1C700DAD2147B71A0065E0AA /* CICategoryGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				1C700DAE2147B74B0065E0AA /* GeneratorViewController.h */,
+				1C700DAF2147B74B0065E0AA /* GeneratorViewController.m */,
+			);
+			path = CICategoryGenerator;
+			sourceTree = "<group>";
+		};
+		1C700DB12148B73B0065E0AA /* CICategoryGeometryAdjustment */ = {
+			isa = PBXGroup;
+			children = (
+				1C700DE62148FED60065E0AA /* CIPerspectiveTransformWithExtent_2x.png */,
+				1C700DD82148EBCD0065E0AA /* CILanczosScaleTransform_2x.png */,
+				1C700DD42148EB990065E0AA /* CIAffineTransform_2x.png */,
+				1C700DDE2148EC130065E0AA /* CIStraightenFilter_2x.png */,
+				1C700DDC2148EBFC0065E0AA /* CIPerspectiveTransform_2x.png */,
+				1C700DDA2148EBE60065E0AA /* CIPerspectiveCorrection_2x.png */,
+				1C700DD62148EBB10065E0AA /* CICrop_2x.png */,
+				1C700DB22148B7560065E0AA /* GeometryAdjustmentViewController.h */,
+				1C700DB32148B7560065E0AA /* GeometryAdjustmentViewController.m */,
+			);
+			path = CICategoryGeometryAdjustment;
+			sourceTree = "<group>";
+		};
+		1C700DB52148B9D90065E0AA /* CICategoryGradient */ = {
+			isa = PBXGroup;
+			children = (
+				1C700DCE2148BAA30065E0AA /* GradientViewController.h */,
+				1C700DCF2148BAA30065E0AA /* GradientViewController.m */,
+			);
+			path = CICategoryGradient;
+			sourceTree = "<group>";
+		};
+		1C700DB62148B9E70065E0AA /* CICategoryHalftoneEffect */ = {
+			isa = PBXGroup;
+			children = (
+				1C700E0C214A046B0065E0AA /* CICircularScreen.png */,
+				1C700E0E214A063E0065E0AA /* CICMYKHalftone.png */,
+				1C700DCB2148BA8F0065E0AA /* HalftoneEffectViewController.h */,
+				1C700DCC2148BA8F0065E0AA /* HalftoneEffectViewController.m */,
+			);
+			path = CICategoryHalftoneEffect;
+			sourceTree = "<group>";
+		};
+		1C700DB72148B9EF0065E0AA /* CICategoryReduction */ = {
+			isa = PBXGroup;
+			children = (
+				1C700DC82148BA800065E0AA /* ReductionViewController.h */,
+				1C700DC92148BA800065E0AA /* ReductionViewController.m */,
+			);
+			path = CICategoryReduction;
+			sourceTree = "<group>";
+		};
+		1C700DB82148B9F80065E0AA /* CICategorySharpen */ = {
+			isa = PBXGroup;
+			children = (
+				1C700DC52148BA730065E0AA /* SharpenViewController.h */,
+				1C700DC62148BA730065E0AA /* SharpenViewController.m */,
+			);
+			path = CICategorySharpen;
+			sourceTree = "<group>";
+		};
+		1C700DB92148BA020065E0AA /* CICategoryStylize */ = {
+			isa = PBXGroup;
+			children = (
+				1C700DC22148BA660065E0AA /* StylizeViewController.h */,
+				1C700DC32148BA660065E0AA /* StylizeViewController.m */,
+			);
+			path = CICategoryStylize;
+			sourceTree = "<group>";
+		};
+		1C700DBA2148BA0B0065E0AA /* CICategoryTileEffect */ = {
+			isa = PBXGroup;
+			children = (
+				1C700DBF2148BA560065E0AA /* TileEffectViewController.h */,
+				1C700DC02148BA560065E0AA /* TileEffectViewController.m */,
+			);
+			path = CICategoryTileEffect;
+			sourceTree = "<group>";
+		};
+		1C700DBB2148BA180065E0AA /* CICategoryTransition */ = {
+			isa = PBXGroup;
+			children = (
+				1C700DBC2148BA460065E0AA /* TransitionViewController.h */,
+				1C700DBD2148BA460065E0AA /* TransitionViewController.m */,
+			);
+			path = CICategoryTransition;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -248,12 +397,21 @@
 				1C06833B2140F77400B9A328 /* images.jpg in Resources */,
 				1C0683262140C47600B9A328 /* Assets.xcassets in Resources */,
 				1C0683242140C47500B9A328 /* Main.storyboard in Resources */,
+				1C700DD92148EBCD0065E0AA /* CILanczosScaleTransform_2x.png in Resources */,
 				1C0683622142551000B9A328 /* CIDroste.png in Resources */,
 				1C06835221424CED00B9A328 /* inputComposite.png in Resources */,
+				1C700DE72148FED60065E0AA /* CIPerspectiveTransformWithExtent_2x.png in Resources */,
+				1C700DDF2148EC130065E0AA /* CIStraightenFilter_2x.png in Resources */,
+				1C700DD52148EB990065E0AA /* CIAffineTransform_2x.png in Resources */,
 				1C0683612142551000B9A328 /* CIBumpDistortion.png in Resources */,
+				1C700DDB2148EBE60065E0AA /* CIPerspectiveCorrection_2x.png in Resources */,
+				1C700DD72148EBB10065E0AA /* CICrop_2x.png in Resources */,
+				1C700E0D214A046B0065E0AA /* CICircularScreen.png in Resources */,
 				1C06835F2142551000B9A328 /* CICircularWrap.png in Resources */,
 				1C0683392140D62D00B9A328 /* image.jpg in Resources */,
 				1C06835E2142551000B9A328 /* backComposite.png in Resources */,
+				1C700E0F214A063E0065E0AA /* CICMYKHalftone.png in Resources */,
+				1C700DDD2148EBFC0065E0AA /* CIPerspectiveTransform_2x.png in Resources */,
 				1C0683642142582200B9A328 /* CIGlassDistortion.png in Resources */,
 				1C0683602142551000B9A328 /* CIBumpDistortionLinear.png in Resources */,
 				1C06834321411AC600B9A328 /* numberImage.jpg in Resources */,
@@ -267,14 +425,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C700DD02148BAA30065E0AA /* GradientViewController.m in Sources */,
+				1C700DCA2148BA800065E0AA /* ReductionViewController.m in Sources */,
+				1C700DCD2148BA8F0065E0AA /* HalftoneEffectViewController.m in Sources */,
 				1C068350214247AD00B9A328 /* CompositeOperationViewController.m in Sources */,
+				1C700DC72148BA730065E0AA /* SharpenViewController.m in Sources */,
 				1C0683212140C47500B9A328 /* ViewController.m in Sources */,
 				1C0683582142538200B9A328 /* DistortionEffectViewController.m in Sources */,
 				1C06834C214211F600B9A328 /* ColorEffectViewController.m in Sources */,
 				1C0683482141231A00B9A328 /* ColorAdjustmentViewController.m in Sources */,
+				1C700DD32148BF4B0065E0AA /* CoreImageModel.m in Sources */,
+				1C700DC12148BA560065E0AA /* TileEffectViewController.m in Sources */,
 				1C06832C2140C47600B9A328 /* main.m in Sources */,
+				1C700DC42148BA660065E0AA /* StylizeViewController.m in Sources */,
 				1C0683342140C75A00B9A328 /* BaseViewController.m in Sources */,
+				1C700DBE2148BA460065E0AA /* TransitionViewController.m in Sources */,
 				1C0683412141158900B9A328 /* BlurViewController.m in Sources */,
+				1C700DB02147B74B0065E0AA /* GeneratorViewController.m in Sources */,
+				1C700DB42148B7570065E0AA /* GeometryAdjustmentViewController.m in Sources */,
 				1C06831E2140C47500B9A328 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
