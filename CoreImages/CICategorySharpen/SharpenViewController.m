@@ -16,7 +16,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.imageView.image = [UIImage imageWithCIImage:[self applyFilterChain:self.filterName]];
+    self.originImageView.image = [UIImage imageNamed:@"CICategorySharpen"];
     // Do any additional setup after loading the view.
+}
+- (CIImage *)applyFilterChain:(NSString *)filterName{
+    CIFilter *filter = [CIFilter filterWithName:filterName];
+    CIImage *ciimage = [CIImage imageWithCGImage:[UIImage imageNamed:@"CICategorySharpen"].CGImage];
+    [filter setValue:ciimage forKey:@"inputImage"];
+    if ([filterName isEqualToString:self.dataArray[0]]) {
+        [filter setValue:@0.4f forKey:@"inputSharpness"];
+    }else if ([filterName isEqualToString:self.dataArray[1]]){
+        [filter setValue:@2.5f forKey:@"inputRadius"];
+        [filter setValue:@0.5f forKey:@"inputIntensity"];
+    }
+    return filter.outputImage;
 }
 
 - (void)didReceiveMemoryWarning {

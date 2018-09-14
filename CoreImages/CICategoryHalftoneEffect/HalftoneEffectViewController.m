@@ -27,13 +27,11 @@
     [filter setValue:vector forKey:@"inputCenter"];
     [filter setValue:@20.0 forKey:@"inputWidth"];
     [filter setValue:@0.7 forKey:@"inputSharpness"];
-    if ([filterName isEqualToString:self.dataArray[0]]) {
-        
-    }else if ([filterName isEqualToString:self.dataArray[1]]){
+    if ([filterName isEqualToString:self.dataArray[1]]){
         image = [UIImage imageNamed:self.dataArray[1]];
         [filter setValue:@0.00 forKey:@"inputAngle"];
-         [filter setValue:@1.00 forKey:@"inputGCR"];
-         [filter setValue:@0.50 forKey:@"inputUCR"];
+        [filter setValue:@1.00 forKey:@"inputGCR"];
+        [filter setValue:@0.50 forKey:@"inputUCR"];
     }else if ([filterName isEqualToString:self.dataArray[2]]){
         image = [UIImage imageNamed:self.dataArray[1]];
         [filter setValue:@0.00 forKey:@"inputAngle"];
@@ -53,13 +51,13 @@
 }
 
 /*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+ #pragma mark - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+ // Get the new view controller using [segue destinationViewController].
+ // Pass the selected object to the new view controller.
+ }
+ */
 
 @end

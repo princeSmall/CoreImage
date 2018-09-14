@@ -46,7 +46,16 @@
         [filter setValue:inputBottomRight forKey:@"inputBottomRight"];
         [filter setValue:inputBottomLeft forKey:@"inputBottomLeft"];
     }else if ([filterName isEqualToString:self.dataArray[5]]){
-//        TODO
+        CIVector *vector = [[CIVector alloc]initWithCGRect:CGRectMake(0, 0, 300, 300)];
+        [filter setValue:vector forKey:@"inputExtent"];
+        CIVector *inputTopLeft = [[CIVector alloc]initWithCGPoint:CGPointMake(118, 484)];
+        CIVector *inputTopRight = [[CIVector alloc]initWithCGPoint:CGPointMake(646, 507)];
+        CIVector *inputBottomRight = [[CIVector alloc]initWithCGPoint:CGPointMake(548, 140)];
+        CIVector *inputBottomLeft = [[CIVector alloc]initWithCGPoint:CGPointMake(155, 153)];
+        [filter setValue:inputTopLeft forKey:@"inputTopLeft"];
+        [filter setValue:inputTopRight forKey:@"inputTopRight"];
+        [filter setValue:inputBottomRight forKey:@"inputBottomRight"];
+        [filter setValue:inputBottomLeft forKey:@"inputBottomLeft"];
     }else if ([filterName isEqualToString:self.dataArray[6]]){
         [filter setValue:@180 forKey:@"inputAngle"];
     }

@@ -81,10 +81,10 @@
     return _SharpenArray;
 }
 - (NSArray *)StylizeArray{
-    if (!_SharpenArray) {
-        _SharpenArray = [NSArray arrayWithObjects:@"CIBlendWithAlphaMask",@"CIBlendWithMask",@"CIBloom",@"CIComicEffect",@"CIConvolution3X3",@"CIConvolution5X5",@"CIConvolution7X7",@"CIConvolution9Horizontal",@"CIConvolution9Vertical",@"CICrystallize",@"CIDepthOfField",@"CIEdges",@"CIEdgeWork",@"CIGloom",@"CIHeightFieldFromMask",@"CIHexagonalPixellate",@"CIHighlightShadowAdjust",@"CILineOverlay",@"CIPixellate",@"CIPointillize",@"CIShadedMaterial",@"CISpotColor",@"CISpotLight", nil];
+    if (!_StylizeArray) {
+        _StylizeArray = [NSArray arrayWithObjects:@"CIBlendWithAlphaMask",@"CIBlendWithMask",@"CIBloom",@"CIComicEffect",@"CIConvolution3X3",@"CIConvolution5X5",@"CIConvolution7X7",@"CIConvolution9Horizontal",@"CIConvolution9Vertical",@"CICrystallize",@"CIDepthOfField",@"CIEdges",@"CIEdgeWork",@"CIGloom",@"CIHeightFieldFromMask",@"CIHexagonalPixellate",@"CIHighlightShadowAdjust",@"CILineOverlay",@"CIPixellate",@"CIPointillize",@"CIShadedMaterial",@"CISpotColor",@"CISpotLight", nil];
     }
-    return _SharpenArray;
+    return _StylizeArray;
 }
 - (NSArray *)TileEffectArray{
     if (!_TileEffectArray) {

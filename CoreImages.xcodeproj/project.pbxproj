@@ -47,9 +47,31 @@
 		1C700DDB2148EBE60065E0AA /* CIPerspectiveCorrection_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C700DDA2148EBE60065E0AA /* CIPerspectiveCorrection_2x.png */; };
 		1C700DDD2148EBFC0065E0AA /* CIPerspectiveTransform_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C700DDC2148EBFC0065E0AA /* CIPerspectiveTransform_2x.png */; };
 		1C700DDF2148EC130065E0AA /* CIStraightenFilter_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C700DDE2148EC130065E0AA /* CIStraightenFilter_2x.png */; };
-		1C700DE72148FED60065E0AA /* CIPerspectiveTransformWithExtent_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C700DE62148FED60065E0AA /* CIPerspectiveTransformWithExtent_2x.png */; };
 		1C700E0D214A046B0065E0AA /* CICircularScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C700E0C214A046B0065E0AA /* CICircularScreen.png */; };
 		1C700E0F214A063E0065E0AA /* CICMYKHalftone.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C700E0E214A063E0065E0AA /* CICMYKHalftone.png */; };
+		1C700E11214A0BF00065E0AA /* CICategorySharpen.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C700E10214A0BF00065E0AA /* CICategorySharpen.png */; };
+		1C700E15214A0F980065E0AA /* CIBlendWithAlphaMask_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C700E12214A0F970065E0AA /* CIBlendWithAlphaMask_2x.png */; };
+		1C700E16214A0F980065E0AA /* CIBlendWithAlphaMask_2x-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C700E13214A0F970065E0AA /* CIBlendWithAlphaMask_2x-1.png */; };
+		1C700E17214A0F980065E0AA /* CIBlendWithAlphaMask_2x-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C700E14214A0F980065E0AA /* CIBlendWithAlphaMask_2x-2.png */; };
+		1C700E19214A47790065E0AA /* CIBloom.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C700E18214A47780065E0AA /* CIBloom.png */; };
+		1C700E1B214A47F40065E0AA /* CIComicEffect.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C700E1A214A47F40065E0AA /* CIComicEffect.png */; };
+		1C700E1D214A48850065E0AA /* CIConvolution3X3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C700E1C214A48850065E0AA /* CIConvolution3X3.png */; };
+		1C700E1F214A49F00065E0AA /* CICrystallize.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C700E1E214A49F00065E0AA /* CICrystallize.png */; };
+		1C700E21214A4B1B0065E0AA /* CIDepthOfField.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C700E20214A4B1B0065E0AA /* CIDepthOfField.png */; };
+		1C700E23214A4F370065E0AA /* CIHeightFieldFromMask.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C700E22214A4F370065E0AA /* CIHeightFieldFromMask.png */; };
+		1C700E25214A4F900065E0AA /* CIHexagonalPixellate.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C700E24214A4F900065E0AA /* CIHexagonalPixellate.png */; };
+		1C700E27214A4FD80065E0AA /* CIHighlightShadowAdjust.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C700E26214A4FD70065E0AA /* CIHighlightShadowAdjust.png */; };
+		1C700E2A214A5C600065E0AA /* CIAccordionFoldTransition_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C700E28214A5C600065E0AA /* CIAccordionFoldTransition_2x.png */; };
+		1C700E2B214A5C600065E0AA /* CIAccordionFoldTransition.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C700E29214A5C600065E0AA /* CIAccordionFoldTransition.png */; };
+		1C700E2E214A60F90065E0AA /* CICategoryTransition.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C700E2C214A60F80065E0AA /* CICategoryTransition.png */; };
+		1C700E2F214A60F90065E0AA /* CICategoryTransition1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C700E2D214A60F90065E0AA /* CICategoryTransition1.png */; };
+		1C700E31214B5E170065E0AA /* CIShadedMaterial.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C700E30214B5E170065E0AA /* CIShadedMaterial.png */; };
+		1C700E33214B84AD0065E0AA /* CIAffineClamp.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C700E32214B84AC0065E0AA /* CIAffineClamp.png */; };
+		1C700E35214B8BDC0065E0AA /* CISixfoldReflectedTile.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C700E34214B8BDB0065E0AA /* CISixfoldReflectedTile.png */; };
+		1C700E37214B8E180065E0AA /* CIOpTile.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C700E36214B8E180065E0AA /* CIOpTile.png */; };
+		1C700E39214B8E850065E0AA /* CIPerspectiveTile.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C700E38214B8E850065E0AA /* CIPerspectiveTile.png */; };
+		1C700E3B214B97A00065E0AA /* CIDisintegrateWithMaskTransition.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C700E3A214B97A00065E0AA /* CIDisintegrateWithMaskTransition.png */; };
+		1C700E3D214B9F0F0065E0AA /* CIHistogramDisplayFilter.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C700E3C214B9F0F0065E0AA /* CIHistogramDisplayFilter.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -113,9 +135,31 @@
 		1C700DDA2148EBE60065E0AA /* CIPerspectiveCorrection_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CIPerspectiveCorrection_2x.png; sourceTree = "<group>"; };
 		1C700DDC2148EBFC0065E0AA /* CIPerspectiveTransform_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CIPerspectiveTransform_2x.png; sourceTree = "<group>"; };
 		1C700DDE2148EC130065E0AA /* CIStraightenFilter_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CIStraightenFilter_2x.png; sourceTree = "<group>"; };
-		1C700DE62148FED60065E0AA /* CIPerspectiveTransformWithExtent_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CIPerspectiveTransformWithExtent_2x.png; path = ../../../../CIPerspectiveTransformWithExtent_2x.png; sourceTree = "<group>"; };
 		1C700E0C214A046B0065E0AA /* CICircularScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CICircularScreen.png; sourceTree = "<group>"; };
 		1C700E0E214A063E0065E0AA /* CICMYKHalftone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CICMYKHalftone.png; sourceTree = "<group>"; };
+		1C700E10214A0BF00065E0AA /* CICategorySharpen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CICategorySharpen.png; sourceTree = "<group>"; };
+		1C700E12214A0F970065E0AA /* CIBlendWithAlphaMask_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CIBlendWithAlphaMask_2x.png; sourceTree = "<group>"; };
+		1C700E13214A0F970065E0AA /* CIBlendWithAlphaMask_2x-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CIBlendWithAlphaMask_2x-1.png"; sourceTree = "<group>"; };
+		1C700E14214A0F980065E0AA /* CIBlendWithAlphaMask_2x-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CIBlendWithAlphaMask_2x-2.png"; sourceTree = "<group>"; };
+		1C700E18214A47780065E0AA /* CIBloom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CIBloom.png; sourceTree = "<group>"; };
+		1C700E1A214A47F40065E0AA /* CIComicEffect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CIComicEffect.png; sourceTree = "<group>"; };
+		1C700E1C214A48850065E0AA /* CIConvolution3X3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CIConvolution3X3.png; sourceTree = "<group>"; };
+		1C700E1E214A49F00065E0AA /* CICrystallize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CICrystallize.png; sourceTree = "<group>"; };
+		1C700E20214A4B1B0065E0AA /* CIDepthOfField.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CIDepthOfField.png; sourceTree = "<group>"; };
+		1C700E22214A4F370065E0AA /* CIHeightFieldFromMask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CIHeightFieldFromMask.png; sourceTree = "<group>"; };
+		1C700E24214A4F900065E0AA /* CIHexagonalPixellate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CIHexagonalPixellate.png; sourceTree = "<group>"; };
+		1C700E26214A4FD70065E0AA /* CIHighlightShadowAdjust.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CIHighlightShadowAdjust.png; sourceTree = "<group>"; };
+		1C700E28214A5C600065E0AA /* CIAccordionFoldTransition_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CIAccordionFoldTransition_2x.png; sourceTree = "<group>"; };
+		1C700E29214A5C600065E0AA /* CIAccordionFoldTransition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CIAccordionFoldTransition.png; sourceTree = "<group>"; };
+		1C700E2C214A60F80065E0AA /* CICategoryTransition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CICategoryTransition.png; sourceTree = "<group>"; };
+		1C700E2D214A60F90065E0AA /* CICategoryTransition1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CICategoryTransition1.png; sourceTree = "<group>"; };
+		1C700E30214B5E170065E0AA /* CIShadedMaterial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CIShadedMaterial.png; sourceTree = "<group>"; };
+		1C700E32214B84AC0065E0AA /* CIAffineClamp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CIAffineClamp.png; sourceTree = "<group>"; };
+		1C700E34214B8BDB0065E0AA /* CISixfoldReflectedTile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CISixfoldReflectedTile.png; sourceTree = "<group>"; };
+		1C700E36214B8E180065E0AA /* CIOpTile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CIOpTile.png; sourceTree = "<group>"; };
+		1C700E38214B8E850065E0AA /* CIPerspectiveTile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CIPerspectiveTile.png; sourceTree = "<group>"; };
+		1C700E3A214B97A00065E0AA /* CIDisintegrateWithMaskTransition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CIDisintegrateWithMaskTransition.png; sourceTree = "<group>"; };
+		1C700E3C214B9F0F0065E0AA /* CIHistogramDisplayFilter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CIHistogramDisplayFilter.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -257,7 +301,6 @@
 		1C700DB12148B73B0065E0AA /* CICategoryGeometryAdjustment */ = {
 			isa = PBXGroup;
 			children = (
-				1C700DE62148FED60065E0AA /* CIPerspectiveTransformWithExtent_2x.png */,
 				1C700DD82148EBCD0065E0AA /* CILanczosScaleTransform_2x.png */,
 				1C700DD42148EB990065E0AA /* CIAffineTransform_2x.png */,
 				1C700DDE2148EC130065E0AA /* CIStraightenFilter_2x.png */,
@@ -293,6 +336,7 @@
 		1C700DB72148B9EF0065E0AA /* CICategoryReduction */ = {
 			isa = PBXGroup;
 			children = (
+				1C700E3C214B9F0F0065E0AA /* CIHistogramDisplayFilter.png */,
 				1C700DC82148BA800065E0AA /* ReductionViewController.h */,
 				1C700DC92148BA800065E0AA /* ReductionViewController.m */,
 			);
@@ -302,6 +346,7 @@
 		1C700DB82148B9F80065E0AA /* CICategorySharpen */ = {
 			isa = PBXGroup;
 			children = (
+				1C700E10214A0BF00065E0AA /* CICategorySharpen.png */,
 				1C700DC52148BA730065E0AA /* SharpenViewController.h */,
 				1C700DC62148BA730065E0AA /* SharpenViewController.m */,
 			);
@@ -311,6 +356,18 @@
 		1C700DB92148BA020065E0AA /* CICategoryStylize */ = {
 			isa = PBXGroup;
 			children = (
+				1C700E30214B5E170065E0AA /* CIShadedMaterial.png */,
+				1C700E22214A4F370065E0AA /* CIHeightFieldFromMask.png */,
+				1C700E20214A4B1B0065E0AA /* CIDepthOfField.png */,
+				1C700E26214A4FD70065E0AA /* CIHighlightShadowAdjust.png */,
+				1C700E24214A4F900065E0AA /* CIHexagonalPixellate.png */,
+				1C700E1E214A49F00065E0AA /* CICrystallize.png */,
+				1C700E1C214A48850065E0AA /* CIConvolution3X3.png */,
+				1C700E1A214A47F40065E0AA /* CIComicEffect.png */,
+				1C700E18214A47780065E0AA /* CIBloom.png */,
+				1C700E13214A0F970065E0AA /* CIBlendWithAlphaMask_2x-1.png */,
+				1C700E14214A0F980065E0AA /* CIBlendWithAlphaMask_2x-2.png */,
+				1C700E12214A0F970065E0AA /* CIBlendWithAlphaMask_2x.png */,
 				1C700DC22148BA660065E0AA /* StylizeViewController.h */,
 				1C700DC32148BA660065E0AA /* StylizeViewController.m */,
 			);
@@ -320,6 +377,10 @@
 		1C700DBA2148BA0B0065E0AA /* CICategoryTileEffect */ = {
 			isa = PBXGroup;
 			children = (
+				1C700E38214B8E850065E0AA /* CIPerspectiveTile.png */,
+				1C700E36214B8E180065E0AA /* CIOpTile.png */,
+				1C700E34214B8BDB0065E0AA /* CISixfoldReflectedTile.png */,
+				1C700E32214B84AC0065E0AA /* CIAffineClamp.png */,
 				1C700DBF2148BA560065E0AA /* TileEffectViewController.h */,
 				1C700DC02148BA560065E0AA /* TileEffectViewController.m */,
 			);
@@ -329,6 +390,11 @@
 		1C700DBB2148BA180065E0AA /* CICategoryTransition */ = {
 			isa = PBXGroup;
 			children = (
+				1C700E3A214B97A00065E0AA /* CIDisintegrateWithMaskTransition.png */,
+				1C700E2C214A60F80065E0AA /* CICategoryTransition.png */,
+				1C700E2D214A60F90065E0AA /* CICategoryTransition1.png */,
+				1C700E28214A5C600065E0AA /* CIAccordionFoldTransition_2x.png */,
+				1C700E29214A5C600065E0AA /* CIAccordionFoldTransition.png */,
 				1C700DBC2148BA460065E0AA /* TransitionViewController.h */,
 				1C700DBD2148BA460065E0AA /* TransitionViewController.m */,
 			);
@@ -392,29 +458,51 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C700E37214B8E180065E0AA /* CIOpTile.png in Resources */,
 				1C06835421424CF200B9A328 /* backComposite.png in Resources */,
 				1C0683292140C47600B9A328 /* LaunchScreen.storyboard in Resources */,
 				1C06833B2140F77400B9A328 /* images.jpg in Resources */,
+				1C700E19214A47790065E0AA /* CIBloom.png in Resources */,
+				1C700E39214B8E850065E0AA /* CIPerspectiveTile.png in Resources */,
 				1C0683262140C47600B9A328 /* Assets.xcassets in Resources */,
+				1C700E17214A0F980065E0AA /* CIBlendWithAlphaMask_2x-2.png in Resources */,
 				1C0683242140C47500B9A328 /* Main.storyboard in Resources */,
 				1C700DD92148EBCD0065E0AA /* CILanczosScaleTransform_2x.png in Resources */,
 				1C0683622142551000B9A328 /* CIDroste.png in Resources */,
+				1C700E3D214B9F0F0065E0AA /* CIHistogramDisplayFilter.png in Resources */,
 				1C06835221424CED00B9A328 /* inputComposite.png in Resources */,
-				1C700DE72148FED60065E0AA /* CIPerspectiveTransformWithExtent_2x.png in Resources */,
+				1C700E2B214A5C600065E0AA /* CIAccordionFoldTransition.png in Resources */,
 				1C700DDF2148EC130065E0AA /* CIStraightenFilter_2x.png in Resources */,
+				1C700E15214A0F980065E0AA /* CIBlendWithAlphaMask_2x.png in Resources */,
 				1C700DD52148EB990065E0AA /* CIAffineTransform_2x.png in Resources */,
+				1C700E33214B84AD0065E0AA /* CIAffineClamp.png in Resources */,
+				1C700E11214A0BF00065E0AA /* CICategorySharpen.png in Resources */,
 				1C0683612142551000B9A328 /* CIBumpDistortion.png in Resources */,
+				1C700E2F214A60F90065E0AA /* CICategoryTransition1.png in Resources */,
+				1C700E16214A0F980065E0AA /* CIBlendWithAlphaMask_2x-1.png in Resources */,
+				1C700E3B214B97A00065E0AA /* CIDisintegrateWithMaskTransition.png in Resources */,
+				1C700E1D214A48850065E0AA /* CIConvolution3X3.png in Resources */,
 				1C700DDB2148EBE60065E0AA /* CIPerspectiveCorrection_2x.png in Resources */,
 				1C700DD72148EBB10065E0AA /* CICrop_2x.png in Resources */,
 				1C700E0D214A046B0065E0AA /* CICircularScreen.png in Resources */,
 				1C06835F2142551000B9A328 /* CICircularWrap.png in Resources */,
+				1C700E27214A4FD80065E0AA /* CIHighlightShadowAdjust.png in Resources */,
+				1C700E35214B8BDC0065E0AA /* CISixfoldReflectedTile.png in Resources */,
+				1C700E23214A4F370065E0AA /* CIHeightFieldFromMask.png in Resources */,
 				1C0683392140D62D00B9A328 /* image.jpg in Resources */,
 				1C06835E2142551000B9A328 /* backComposite.png in Resources */,
+				1C700E1B214A47F40065E0AA /* CIComicEffect.png in Resources */,
+				1C700E21214A4B1B0065E0AA /* CIDepthOfField.png in Resources */,
+				1C700E2E214A60F90065E0AA /* CICategoryTransition.png in Resources */,
+				1C700E31214B5E170065E0AA /* CIShadedMaterial.png in Resources */,
 				1C700E0F214A063E0065E0AA /* CICMYKHalftone.png in Resources */,
+				1C700E25214A4F900065E0AA /* CIHexagonalPixellate.png in Resources */,
+				1C700E2A214A5C600065E0AA /* CIAccordionFoldTransition_2x.png in Resources */,
 				1C700DDD2148EBFC0065E0AA /* CIPerspectiveTransform_2x.png in Resources */,
 				1C0683642142582200B9A328 /* CIGlassDistortion.png in Resources */,
 				1C0683602142551000B9A328 /* CIBumpDistortionLinear.png in Resources */,
 				1C06834321411AC600B9A328 /* numberImage.jpg in Resources */,
+				1C700E1F214A49F00065E0AA /* CICrystallize.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
