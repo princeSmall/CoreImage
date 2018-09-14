@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseViewController.h"
+@interface ColorEffectViewController : BaseViewController
 
-@interface ColorEffectViewController : UIViewController
-@property (nonatomic ,strong)NSString *filterName;
 
 @end

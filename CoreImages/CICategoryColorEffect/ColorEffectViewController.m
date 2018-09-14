@@ -7,13 +7,9 @@
 //
 
 #import "ColorEffectViewController.h"
-#import <CoreImage/CoreImage.h>
-
-@interface ColorEffectViewController ()<UIPickerViewDelegate,UIPickerViewDataSource>
-@property (nonatomic ,strong)UIPickerView *imagePickerView;
+@interface ColorEffectViewController ()
 @property (nonatomic ,strong)NSArray *ciphotoArray;
-@property (nonatomic ,strong)UIImageView *originImageView;
-@property (nonatomic ,strong)UIImageView *imageView;
+
 @end
 
 @implementation ColorEffectViewController
@@ -21,9 +17,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
-    [self.view addSubview:self.imagePickerView];
-    [self.view addSubview:self.originImageView];
-    [self.view addSubview:self.imageView];
     UIImage *originImage = [UIImage imageNamed:@"image.jpg"];
     self.originImageView.image = originImage;
     self.imageView.image =  [UIImage imageWithCIImage:[self applyFilterChain:self.filterName]];
@@ -127,58 +120,7 @@
     
 }
 
-- (UIImageView *)originImageView{
-    if (!_originImageView) {
-        _originImageView = [[UIImageView alloc]initWithFrame:CGRectMake(self.view.frame.size.width / 2.0 - 200, 100, 200, 200)];
-    }
-    return _originImageView;
-}
-- (UIImageView *)imageView{
-    if (!_imageView) {
-        _imageView = [[UIImageView alloc]initWithFrame:CGRectMake(200 + self.view.frame.size.width / 2.0 - 200, 100, 200, 200)];
-    }
-    return _imageView;
-}
-- (NSArray *)ciphotoArray{
-    if (!_ciphotoArray) {
-        _ciphotoArray = [NSArray arrayWithObjects:@"CIVignetteEffect",@"CIVignette",@"CISepiaTone",@"CIPhotoEffectTransfer",@"CIPhotoEffectTonal",@"CIPhotoEffectProcess",@"CIPhotoEffectNoir",@"CIPhotoEffectMono",@"CIPhotoEffectInstant",@"CIPhotoEffectFade",@"CIPhotoEffectChrome",@"CIMinimumComponent",@"CIMaximumComponent",@"CIMaskToAlpha",@"CIFalseColor",@"CIColorPosterize",@"CIColorMonochrome",@"CIColorMap",@"CIColorInvert",@"CIColorCubeWithColorSpace",@"CIColorCube",@"CIColorCrossPolynomial",nil];
-    }
-    return _ciphotoArray;
-}
 
-- (UIPickerView *)imagePickerView{
-    if (!_imagePickerView) {
-        _imagePickerView = [[UIPickerView alloc]initWithFrame:CGRectMake(0, 300, self.view.frame.size.width, 200)];
-        _imagePickerView.delegate = self;
-        _imagePickerView.dataSource = self;
-        _imagePickerView.backgroundColor = [UIColor grayColor];
-        _imagePickerView.alpha = 0.7;
-    }
-    return _imagePickerView;
-}
-// 返回多少列
-- (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView{
-    return 1;
-}
-// 返回每列的行数
-- (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component{
-   
-    return self.ciphotoArray.count;
-}
-// 返回每行的标题
--(NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component
-{
-    return self.ciphotoArray[row];
-}
-
--(void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component
-{
-    self.imageView.image = [UIImage imageWithCIImage:[self applyFilterChain:self.ciphotoArray[row]]];
-}
-
-- (CGSize)rowSizeForComponent:(NSInteger)component{
-    return CGSizeMake(self.view.frame.size.width, 40);
-}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

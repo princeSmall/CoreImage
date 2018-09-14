@@ -10,8 +10,7 @@
 #import <CoreImage/CoreImage.h>
 
 @interface ColorAdjustmentViewController ()
-@property (nonatomic ,strong)UIImageView *originImageView;
-@property (nonatomic ,strong)UIImageView *imageView;
+
 @end
 
 @implementation ColorAdjustmentViewController
@@ -19,13 +18,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
-    [self.view addSubview:self.originImageView];
-    [self.view addSubview:self.imageView];
+
     self.originImageView.image = [UIImage imageNamed:@"image.jpg"];
-    self.imageView.image =[UIImage imageWithCGImage:[self applyFilterChain:self.filterName]];
+    self.imageView.image =[UIImage imageWithCIImage:[self applyFilterChain:self.filterName]];
     // Do any additional setup after loading the view.
 }
-- (CGImageRef)applyFilterChain:(NSString *)filterName{
+- (CIImage *)applyFilterChain:(NSString *)filterName{
     UIImage *originImage = [UIImage imageNamed:@"image.jpg"];
     CIImage *ciimage = [CIImage imageWithCGImage:originImage.CGImage];
     CIFilter *filter = [CIFilter filterWithName:filterName];
@@ -94,21 +92,9 @@
     }
     
     CIImage *ciImage = filter.outputImage;
-    CIContext *context = [CIContext contextWithOptions:nil];
-    CGImageRef outImage = [context createCGImage:ciImage fromRect:ciImage.extent];
-    return outImage;
-}
-- (UIImageView *)originImageView{
-    if (!_originImageView) {
-        _originImageView = [[UIImageView alloc]initWithFrame:CGRectMake(100, 100, 200, 200)];
-    }
-    return _originImageView;
-}
-- (UIImageView *)imageView{
-    if (!_imageView) {
-        _imageView = [[UIImageView alloc]initWithFrame:CGRectMake(100, 300, 200, 200)];
-    }
-    return _imageView;
+//    CIContext *context = [CIContext contextWithOptions:nil];
+//    CGImageRef outImage = [context createCGImage:ciImage fromRect:ciImage.extent];
+    return ciImage;
 }
 
 - (void)didReceiveMemoryWarning {

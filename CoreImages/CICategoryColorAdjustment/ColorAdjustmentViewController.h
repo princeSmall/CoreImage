@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ColorAdjustmentViewController : UIViewController
-@property (nonatomic ,strong)NSString *filterName;
+#import "BaseViewController.h"
+
+@interface ColorAdjustmentViewController : BaseViewController
+
 @end

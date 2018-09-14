@@ -22,6 +22,12 @@
     [self.view addSubview:self.originImageView];
     [self.view addSubview:self.originImageView2];
     [self.view addSubview:self.imageView];
+    for (int i = 0; i < self.dataArray.count; i ++) {
+        if ([self.filterName isEqualToString:self.dataArray[i]]) {
+            [self.imagePickerView selectRow:i inComponent:0 animated:YES];
+            return;
+        }
+    }
     // Do any additional setup after loading the view.
 }
 

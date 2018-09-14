@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseViewController.h"
+@interface BlurViewController :BaseViewController
 
-@interface BlurViewController : UIViewController
-@property (nonatomic ,strong)NSString *filterName;
 @end

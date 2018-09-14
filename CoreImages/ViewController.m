@@ -201,14 +201,17 @@
     if (s == 0) {
         BlurViewController *blurVC = [[BlurViewController alloc]init];
         blurVC.filterName = self.model.blurArray[r];
+        blurVC.dataArray = self.model.blurArray;
         vc = blurVC;
     }else if (s == 1){
         ColorAdjustmentViewController *colorAdjustmentVC = [[ColorAdjustmentViewController alloc]init];
         colorAdjustmentVC.filterName = self.model.colorAdjustmentArray[r];
+        colorAdjustmentVC.dataArray = self.model.colorAdjustmentArray;
         vc = colorAdjustmentVC;
     }else if (s == 2){
         ColorEffectViewController *colorEffectVC = [[ColorEffectViewController alloc]init];
         colorEffectVC.filterName = self.model.colorEffextArray[r];
+        colorEffectVC.dataArray = self.model.colorEffextArray;
         vc = colorEffectVC;
     }else if (s == 3){
         CompositeOperationViewController *compositeOperation = [[CompositeOperationViewController alloc]init];

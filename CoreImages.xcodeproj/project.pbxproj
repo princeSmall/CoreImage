@@ -194,9 +194,6 @@
 		1C06831B2140C47500B9A328 /* CoreImages */ = {
 			isa = PBXGroup;
 			children = (
-				1C06834221411AC600B9A328 /* numberImage.jpg */,
-				1C06833A2140F77400B9A328 /* images.jpg */,
-				1C0683382140D62C00B9A328 /* image.jpg */,
 				1C06831C2140C47500B9A328 /* AppDelegate.h */,
 				1C06831D2140C47500B9A328 /* AppDelegate.m */,
 				1C06831F2140C47500B9A328 /* ViewController.h */,
@@ -239,6 +236,9 @@
 		1C068344214122E200B9A328 /* CICategoryBlur */ = {
 			isa = PBXGroup;
 			children = (
+				1C06834221411AC600B9A328 /* numberImage.jpg */,
+				1C06833A2140F77400B9A328 /* images.jpg */,
+				1C0683382140D62C00B9A328 /* image.jpg */,
 				1C06833F2141158800B9A328 /* BlurViewController.h */,
 				1C0683402141158900B9A328 /* BlurViewController.m */,
 			);
