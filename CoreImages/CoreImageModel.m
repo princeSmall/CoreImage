@@ -46,7 +46,7 @@
 }
 - (NSArray *)generatorArray{
     if (!_generatorArray) {
-        _generatorArray = [NSArray arrayWithObjects:@"CICode128BarcodeGenerator",@"CIQRCodeGenerator", nil];
+        _generatorArray = [NSArray arrayWithObjects:@"CICode128BarcodeGenerator",@"CIQRCodeGenerator",@"CICheckerboardGenerator", nil];
     }
     return _generatorArray;
 }

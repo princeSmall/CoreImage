@@ -72,6 +72,7 @@
 		1C700E39214B8E850065E0AA /* CIPerspectiveTile.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C700E38214B8E850065E0AA /* CIPerspectiveTile.png */; };
 		1C700E3B214B97A00065E0AA /* CIDisintegrateWithMaskTransition.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C700E3A214B97A00065E0AA /* CIDisintegrateWithMaskTransition.png */; };
 		1C700E3D214B9F0F0065E0AA /* CIHistogramDisplayFilter.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C700E3C214B9F0F0065E0AA /* CIHistogramDisplayFilter.png */; };
+		1C700E3F214F4BFD0065E0AA /* CIPerspectiveTransformWithExtent_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C700E3E214F4BFD0065E0AA /* CIPerspectiveTransformWithExtent_2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -160,6 +161,7 @@
 		1C700E38214B8E850065E0AA /* CIPerspectiveTile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CIPerspectiveTile.png; sourceTree = "<group>"; };
 		1C700E3A214B97A00065E0AA /* CIDisintegrateWithMaskTransition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CIDisintegrateWithMaskTransition.png; sourceTree = "<group>"; };
 		1C700E3C214B9F0F0065E0AA /* CIHistogramDisplayFilter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CIHistogramDisplayFilter.png; sourceTree = "<group>"; };
+		1C700E3E214F4BFD0065E0AA /* CIPerspectiveTransformWithExtent_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CIPerspectiveTransformWithExtent_2x.png; path = "../../../../未命名文件夹/CIPerspectiveTransformWithExtent_2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -303,6 +305,7 @@
 			children = (
 				1C700DD82148EBCD0065E0AA /* CILanczosScaleTransform_2x.png */,
 				1C700DD42148EB990065E0AA /* CIAffineTransform_2x.png */,
+				1C700E3E214F4BFD0065E0AA /* CIPerspectiveTransformWithExtent_2x.png */,
 				1C700DDE2148EC130065E0AA /* CIStraightenFilter_2x.png */,
 				1C700DDC2148EBFC0065E0AA /* CIPerspectiveTransform_2x.png */,
 				1C700DDA2148EBE60065E0AA /* CIPerspectiveCorrection_2x.png */,
@@ -465,6 +468,7 @@
 				1C700E19214A47790065E0AA /* CIBloom.png in Resources */,
 				1C700E39214B8E850065E0AA /* CIPerspectiveTile.png in Resources */,
 				1C0683262140C47600B9A328 /* Assets.xcassets in Resources */,
+				1C700E3F214F4BFD0065E0AA /* CIPerspectiveTransformWithExtent_2x.png in Resources */,
 				1C700E17214A0F980065E0AA /* CIBlendWithAlphaMask_2x-2.png in Resources */,
 				1C0683242140C47500B9A328 /* Main.storyboard in Resources */,
 				1C700DD92148EBCD0065E0AA /* CILanczosScaleTransform_2x.png in Resources */,

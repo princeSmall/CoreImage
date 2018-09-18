@@ -46,6 +46,7 @@
         [filter setValue:inputBottomRight forKey:@"inputBottomRight"];
         [filter setValue:inputBottomLeft forKey:@"inputBottomLeft"];
     }else if ([filterName isEqualToString:self.dataArray[5]]){
+        
         CIVector *vector = [[CIVector alloc]initWithCGRect:CGRectMake(0, 0, 300, 300)];
         [filter setValue:vector forKey:@"inputExtent"];
         CIVector *inputTopLeft = [[CIVector alloc]initWithCGPoint:CGPointMake(118, 484)];

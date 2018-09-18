@@ -21,17 +21,35 @@
     // Do any additional setup after loading the view.
 }
 - (CIImage *)applyFilterChain:(NSString *)filterName{
-    CIFilter *filter = [CIFilter filterWithName:@"CICode128BarcodeGenerator"];
-        NSString *info = @"12937466464";
+    CIFilter *filter = [CIFilter filterWithName:filterName];
+    
+    if ([filterName isEqualToString:self.dataArray[0]]) {
+        NSString *info = @"wx 1263512924";
         NSData *data = [info dataUsingEncoding:NSUTF8StringEncoding];
         [filter setValue:data forKey:@"inputMessage"];
-    if ([filterName isEqualToString:@""]) {
-         [filter setValue:@10 forKey:@"inputQuietSpace"];
-    }else if ([filterName isEqualToString:@""]){
-         [filter setValue:@"M" forKey:@"inputCorrectionLevel"];
+        [filter setValue:@10 forKey:@"inputQuietSpace"];
+    }else if ([filterName isEqualToString:self.dataArray[1]]){
+        NSString *info = @"wx 1263512924";
+        NSData *data = [info dataUsingEncoding:NSUTF8StringEncoding];
+        [filter setValue:data forKey:@"inputMessage"];
+        [filter setValue:@"M" forKey:@"inputCorrectionLevel"];
+    }else if ([filterName isEqualToString:self.dataArray[2]]){
+        UIColor *color1 = [UIColor redColor];
+        UIColor *color2 = [UIColor greenColor];
+        CIVector *vector = [[CIVector alloc]initWithX:150 Y:150];
+        [filter setValue:vector forKey:@"inputCenter"];
+        [filter setValue:@80.0 forKey:@"inputWidth"];
+        [filter setValue:@1.0 forKey:@"inputSharpness"];
+        [filter setValue:[CIColor colorWithCGColor:color1.CGColor] forKey:@"inputColor0"];
+        [filter setValue:[CIColor colorWithCGColor:color2.CGColor] forKey:@"inputColor1"];
+
     }
     CIImage *result = filter.outputImage;
-    return result;
+    CIContext *context = [CIContext contextWithOptions:nil];
+    
+    CGImageRef cgImage = [context createCGImage:result fromRect:CGRectMake(0, 0, 300, 300)];
+    CIImage *ciimage = [CIImage imageWithCGImage:cgImage];
+    return filterName == self.dataArray[2] ?  ciimage : result;
     
 }
 
