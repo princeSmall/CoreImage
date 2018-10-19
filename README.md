@@ -1,6 +1,6 @@
 # CoreImage
 
-###  1-1 效果类型的过滤器类别常量
+### 1-1 效果类型的过滤器类别常量
 效果类型|指示
 --------|---------
 kCICategoryDistortionEffect|失真效果，如凹凸，旋转，洞
@@ -32,3 +32,26 @@ kCICategoryBlur|模糊，如高斯，变焦，运动
 1. 实例化CIFilter表示要应用的过滤器的对象，并为其参数提供值
 2. 创建一个CIContext对象（使用默认选项）过创建自己的上下文，您可以更精确地控制渲染过程和渲染所涉及的资源
 3. 输出filter.outputImage
+
+### 1-4 创建CIFilter
+
+<pre>
+ NSString *info = @"http://princesmall.cn";
+ NSData *data = [info dataUsingEncoding:NSUTF8StringEncoding];
+ CIFilter *filter = [CIFilter filterWithName:@"CIQRCodeGenerator" keysAndValues:@"inputQuietSpace",@10,@"inputMessage",data, nil];
+ </pre>
+ <pre>
+ NSString *info = @"http://princesmall.cn";
+ NSData *data = [info dataUsingEncoding:NSUTF8StringEncoding];
+ NSDictionary *dictionary = @{@"inputQuietSpace":@10,
+                                 @"inputMessage":data
+                                 };
+ CIFilter *filter = [CIFilter filterWithName:@"CIQRCodeGenerator" withInputParameters:dictionary];
+ </pre>
+ <pre>
+ CIFilter *filter = [CIFilter filterWithName:@"CIQRCodeGenerator"];
+ NSString *info = @"http://princesmall.cn";
+ NSData *data = [info dataUsingEncoding:NSUTF8StringEncoding];
+ [filter setValue:data forKey:@"inputMessage"];
+ [filter setValue:@10 forKey:@"inputQuietSpace"];
+ </pre>
